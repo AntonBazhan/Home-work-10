@@ -418,23 +418,20 @@
     display: -ms-flexbox;
     display: flex;
     justify-content: center;
-  /*   align-items: flex-start; */
+ 
   
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-  position:absolute;
+    position:absolute;
   
   Left: 50%;
   Right: 50%;
   top: 50%;
   bottom: 50%;
   Transform: translate (-50%, -50%);
-  
-    /*   top: 205px;
-    left: 80px; */
-    opacity: 1;
+  opacity: 1;
   }
   
   /* Устанавливаем анимацию */
@@ -490,7 +487,7 @@
     top: 584px;
   }
   
-  .footer-text {
+  .footer__text {
     font-size: 14px;
     color: #333333;
     font-family: "Montserrat", sans-serif;
@@ -498,7 +495,7 @@
     line-height: 60px;
   }
   
-  .fotter__text--color {
+  .footter__text--color {
     color: #f38181;
   }
   
