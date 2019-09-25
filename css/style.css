@@ -6,7 +6,6 @@
    font-weight: inherit;
    }
    
-      
     body {
     margin: 0 auto;
     padding: 0;
@@ -163,6 +162,7 @@
   }
   
        /* SVG */
+
    .site-navigation__icon {
     width: 18px;
     height: 18px;
@@ -176,6 +176,7 @@
   }
   
   /* Выставляем и стилизируем надписи в Хедер */
+
    .page-header__title {
     font-size: 72px;
     color: white;
@@ -219,6 +220,7 @@
   }
   
   /* 3. Работаем с блоком Service */
+
   .section__title {
     font-size: 24px;
     color: #333333;
@@ -296,7 +298,7 @@
   }
   
   /*Блок Команда */
-  
+
   .correct {
     text-align: center;
     margin-top: 27px;
