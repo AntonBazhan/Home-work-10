@@ -347,7 +347,7 @@
   
   /* Устанавливаем анимацию */
   
-  .employee:hover .employee__img2 {
+  .employee:hover .employee__img {
     -webkit-animation-duration: 0.2s;
     animation-duration: 0.2s;
     -webkit-animation-name: move;
@@ -355,7 +355,7 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  }
+  
 
   .employee:hover .employee__grad {
     background: -webkit-gradient(
