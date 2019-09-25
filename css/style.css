@@ -472,7 +472,7 @@
     fill: white;
   } 
   
-  /* 5. Работаем с блоком Футтер */
+  /* Блок Футтер */
   .footer__line {
     max-width: 1200px;
     border-top: 1px solid #e5e5e5;
