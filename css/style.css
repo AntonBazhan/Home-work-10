@@ -296,12 +296,14 @@
   }
   
   /*Блок Команда */
+  
   .correct {
     text-align: center;
     margin-top: 27px;
   }
   
   /* Обертка блока Команда */
+
   .employee {
     max-width: 380px;
     height: 470px;
@@ -310,6 +312,7 @@
   }
   
   /* Накладываем на фото градиент */
+
   .employee__grad {
     width: 100%;
     height: 470px;
@@ -319,10 +322,10 @@
   }
   
   /* Задаем условие animation */
+
   @-webkit-keyframes move {
     from {
     }
-  
     to {
       margin-top: -10px;
       margin-left: -10px;
@@ -331,7 +334,6 @@
   @keyframes move {
     from {
     }
-  
     to {
       margin-top: -10px;
       margin-left: -10px;
@@ -411,20 +413,17 @@
   }
   
   /* Структурируем расположение иконок  */
+
   .socials {
-  
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     justify-content: center;
- 
-  
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
     position:absolute;
-  
   Left: 50%;
   Right: 50%;
   top: 50%;
@@ -444,7 +443,7 @@
   } 
   
   /* Стилизируем SVG */
-  
+
   .socials__item {
     width: 56px;
     height: 56px;
