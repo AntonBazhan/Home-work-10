@@ -1,7 +1,6 @@
 1. Общие
 list
 
-
 Блоки:
 
 1. container-fluid

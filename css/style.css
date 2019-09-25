@@ -110,10 +110,9 @@
   }
 }
 
-
 /* Панель навигации */
 
-.page-nav {
+  .page-nav {
     padding: 0;
     padding-top: 29px;
   }
@@ -163,8 +162,8 @@
     margin-top: 10px;
   }
   
-  /* SVG */
-.site-navigation__icon {
+       /* SVG */
+   .site-navigation__icon {
     width: 18px;
     height: 18px;
     fill: white;
@@ -177,7 +176,7 @@
   }
   
   /* Выставляем и стилизируем надписи в Хедер */
-.page-header__title {
+   .page-header__title {
     font-size: 72px;
     color: white;
     margin-top: 164px;
@@ -296,13 +295,13 @@
     margin-bottom: 90px;
   }
   
-  /* 4. Работаем с блоком Команда */
+  /*Блок Команда */
   .correct {
     text-align: center;
     margin-top: 27px;
   }
   
-  /* Обертка блока сотрудника */
+  /* Обертка блока Команда */
   .employee {
     max-width: 380px;
     height: 470px;
