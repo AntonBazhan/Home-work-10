@@ -9,7 +9,6 @@
     body {
     margin: 0 auto;
     padding: 0;
-    max-width: 1920px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -32,7 +31,6 @@
   /* Обвертка*/
   
   .container-fluid {
-  width: 100%;
   height: 100%;
   }
 
