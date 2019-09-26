@@ -31,13 +31,14 @@
   /* Обвертка*/
   
   .container-fluid {
-  height: 100%;
+  min-height: 100%;
   }
 
   /*Контейне*/
 
   .container {
-    max-width: 1200px;
+    width: 1200px;
+    margin: auto;
     }
 
   .no-gutter {
@@ -220,6 +221,10 @@
   }
   
   /* 3. Работаем с блоком Service */
+.section__wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
 
   .section__title {
     font-size: 24px;
@@ -227,6 +232,7 @@
     text-align: center;
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
+    margin-top: 45px;
   }
   
   .section__title::first-letter {
@@ -475,9 +481,11 @@
   }
   
   .footer__wrapper {
+    
     height: 60px;
     position: relative;
     top: 584px;
+    
   }
   
   .footer__text {
