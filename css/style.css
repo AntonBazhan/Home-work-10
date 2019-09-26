@@ -38,7 +38,7 @@
 
   .container {
     width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     }
 
   .no-gutter {
@@ -122,7 +122,7 @@
   
   .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     display: -webkit-box;
     display: -ms-flexbox;
     -ms-flex-wrap: nowrap;
@@ -168,8 +168,9 @@
     width: 18px;
     height: 18px;
     fill: white;
-    position: absolute;
+    /*position: absolute;*/
     top: 25%;
+    
   }
   
   .site-navigation__icon:hover {
