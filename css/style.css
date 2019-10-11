@@ -387,6 +387,8 @@ body {
   right: 0;
   transition: var(--trans);
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 .employee:hover .employee__img {
   bottom: 10px;
@@ -401,8 +403,8 @@ body {
 
 .socials {
   position: absolute;
-  height: 470px;
-  width: 383px;
+  height: 472px;
+  width: 385px;
   top: 0;
   left: 0;
   transition: var(--trans);
